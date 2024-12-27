@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="mx-7 bg-slate-50">
+        <header class="p-2 flex justify-between  top-0 left-0 right-0  px-20 md:px-5 xs:px-0 bg-white "><h1 class="xs:text-2xl  p-2 text-blue-600  font-bold ml-4 md:ml-0 md:px-0 lg:text-2xl">CareClick</h1>
+    
+            <div class="lg:flex gap-6 items-center hidden px-2 mr-7 p  "><nav class=" md:flex space-x-2 hidden text-xl gap-5">
+              <a href="" class="px-1 hover:text-blue-600 lg:text-md">Appointments</a>
+              <a href="" class="px-1  hover:text-blue-600">Consultation</a>
+              <a href="" class="px-1  hover:text-blue-600">Blog</a>
+            </nav><i class="fa-solid fa-bell fa-xl p-5 hover:bg-slate-100 rounded-2xl cursor-pointer"></i> <i class="fa-regular fa-user fa-xl p-5  hover:bg-slate-100 rounded-2xl cursor-pointer"></i> <botton class="bg-blue-600 px-4 py-2 cursor-pointer text-white rounded-md">sign in</botton>  </div>
+            <div id="harburger" class="lg:hidden  cursor-pointer p-3 mr-3 md:mr-0 mt1">
+            <i class="fa-solid fa-bars fa-xl"></i></div></header>
+            <div class="mx-7 my-7 py-10">
+                <div class="mx-5 mt-3 py-5">
+                    <h1 class="lg:text-4xl text-2xl font-extrabold flex justify-center mt-3 ">create your account</h1>
+                    <div class=" flex justify-center  mt-4">
+                        <form class="border lg:w-1/2 bg-white">
+                            <div class="flex justify-center items-center  p-4"><div class="lg:w-1/3  bg-blue-600  flex justify-center rounded-l-lg cursor-pointer hover:bg-blue-500"><dotton class=" items-center text-white rounded-l-lg px-7 py-2   ">Patient</dotton></div> <div class=" lg:w-1/3   flex bg-slate-50 justify-center rounded-lg cursor-pointer hover:bg-slate-100"><botton class="  flex items-center py-2 px-7  rounded-r-lg">Doctor</botton></div> </div>
+                            <!-- <div class="flex border-spacing-2 border-black"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user h-5 w-5 text-gray-400"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> <input placeholder="John Doe" id="name" type="text" required="" class="hover:border-spacing-3 hover:border-black"></div> -->
+                           <div class="flex  justify-center"> <div class=" px-7"><div class="py-3"><label for="name" class="block text-sm font-medium text-gray-700">Full Name</label><div class="mt-1 relative rounded-md shadow-sm"><div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user h-5 w-5 text-gray-400"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></div><input id="name" name="name" type="text" required="" class="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md" placeholder="John Doe"></div></div>
+                           <div class="py-3"><label for="email" class="block text-sm font-medium text-gray-700">Email address</label><div class="mt-1 relative rounded-md shadow-sm"><div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail h-5 w-5 text-gray-400"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></div><input id="email" name="email" type="email" required="" class="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md" placeholder="you@example.com"></div></div>
+                           <div class="py-3"><label for="password" class="block text-sm font-medium text-gray-700">Password</label><div class="mt-1 relative rounded-md shadow-sm"><div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock h-5 w-5 text-gray-400"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div><input id="password" name="password" type="password" required="" class="focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md"></div></div>
+                           <div class="py-3"><button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Create account</button></div>
+                           <div class="text-sm text-center py-3 "><span class="text-gray-600">Already have an account?</span> <a class="font-medium text-blue-600 hover:text-blue-500 sm:block md:block" href="/login">Sign in</a></div>
+</div></div>
+                                                    </form>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+            
+    </div>
+</body>
+</html>
